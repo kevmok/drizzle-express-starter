@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2020",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "rootDir": "src" /* Specify the root folder within your source files. */,
+    "skipLibCheck": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@middleware/*": ["middleware/*"],
+      "@typings/*": ["typings/*"],
+      "@routers/*": ["routers/*"],
+      "@db/*": ["db/*"],
+      "@controllers/*": ["controllers/*"]
+    },
+    "strict": true
+  },
+  "include": ["src/**/*"]
+}
