@@ -1,4 +1,6 @@
-# Express Success Points API
+# Express Typescript REST API with Drizzle ORM & PlanetScale
+
+[![Languages](https://skillicons.dev/icons?i=ts,nodejs,express,planetscale)](https://skillicons.dev)
 
 This is a TypeScript-based API built with Express and Drizzle ORM. It provides endpoints for managing jwt authentication and authorization, as well as CRUD operations for various resources.
 
@@ -62,3 +64,4 @@ pnpm db:studio
 ## License
 
 This project is licensed under the MIT License.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
